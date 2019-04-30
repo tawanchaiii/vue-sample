@@ -1,15 +1,17 @@
 <template>
-  <div id="helloText">
-    Hello by ThitiBlog
+  <div>
+      {{ msg }}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'MyComponent'
+  name: 'MyComponent',
+  props: [
+    'msg'
+  ]
 }
 </script>
-
 <style>
   #helloText {
     color: #178bff;
