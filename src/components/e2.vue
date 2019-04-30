@@ -1,7 +1,7 @@
 <template>
   <div id="example">
-    <p>Original message: "{{ message }}"</p>
-    <p>Computed reversed message: "{{ reversedMessage }}"</p> <br />
+    <p>ตัวดั้งเดิม: "{{ message }}"</p>
+    <p>ตัว reverse: "{{ reversedMessage }}"</p> <br />
   </div>
 </template>
 

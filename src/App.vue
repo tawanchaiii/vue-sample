@@ -29,6 +29,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Kanit|Prompt');
 #app {
   font-family: 'Kanit', sans-serif;
   
